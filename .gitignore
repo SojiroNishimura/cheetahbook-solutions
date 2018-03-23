@@ -3,7 +3,8 @@
 
 # build
 [Oo]bj/
-[Bb]in/
+[Bb]in/*
+!Inputs.txt
 packages/
 TestResults/
 
