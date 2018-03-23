@@ -10,6 +10,12 @@ namespace CheetahBook
         int[] dy = { 0, 0, 1, -1 };
         double[] probabilities = new double[4];
 
+        public CrazyBot()
+        {
+            var reader = new System.IO.StreamReader("Inputs_CrazyBot.txt");
+            Console.SetIn(reader);
+        }
+
         public double GetProbability(int n, int east, int west, int south, int north)
         {
             probabilities[0] = east / 100d;
