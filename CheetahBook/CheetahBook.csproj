@@ -36,10 +36,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CrazyBot.cs" />
     <Compile Include="MazeMaker.cs" />
+    <Compile Include="NumberMagicEasy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Inputs_CrazyBot.txt" />
     <None Include="bin\Debug\Inputs_MazeMaker.txt" />
+    <None Include="bin\Debug\Inputs_NumberMagicEasy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

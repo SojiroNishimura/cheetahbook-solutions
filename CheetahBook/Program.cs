@@ -7,8 +7,9 @@ namespace CheetahBook
     {
         public static void Main(string[] args)
         {
-            SolveCrazyBot();
-            SolveMazeMaker();
+            //SolveCrazyBot();
+            //SolveMazeMaker();
+            new NumberMagicEasy().Solve();
         }
 
         static void SolveCrazyBot()
