@@ -37,11 +37,13 @@
     <Compile Include="CrazyBot.cs" />
     <Compile Include="MazeMaker.cs" />
     <Compile Include="NumberMagicEasy.cs" />
+    <Compile Include="CorporationSalary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Inputs_CrazyBot.txt" />
     <None Include="bin\Debug\Inputs_MazeMaker.txt" />
     <None Include="bin\Debug\Inputs_NumberMagicEasy.txt" />
+    <None Include="bin\Debug\Inputs_CorporationSalary.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
