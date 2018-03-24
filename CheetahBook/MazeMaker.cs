@@ -63,5 +63,20 @@ namespace CheetahBook
             }
             return max;
         }
+
+        public void Solve()
+        {
+            Console.WriteLine("MazeMaker");
+            var mazeMaker = new MazeMaker();
+            var n = int.Parse(Console.ReadLine());
+            var maze = new string[n];
+            for (var i = 0; i < n; i++) maze[i] = Console.ReadLine();
+            var startPos = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var moveRow = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var moveCol = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var ans = mazeMaker.LongestPath(maze, startPos[0], startPos[1],
+                                            moveRow, moveCol);
+            Console.WriteLine($"{ans}\n");
+        }
     }
 }
