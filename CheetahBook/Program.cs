@@ -10,7 +10,8 @@ namespace CheetahBook
             //new MazeMaker().Solve();
             //new NumberMagicEasy().Solve();
             //new CorporationSalary().Solve();
-            new BadNeighbors().Solve();
+            //new BadNeighbors().Solve();
+            new ChessMetric().Solve();
         }
     }
 }
